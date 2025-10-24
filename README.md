@@ -5,6 +5,7 @@ Here are some of the content that have helped me understand the concepts i neede
 
 Exercise 2
 Resources that helped me understand
+
 https://unix.stackexchange.com/questions/167823/finds-exec-rm-vs-delete
 https://youtu.be/aZD5JBB3HXE?si=ISkT5TLTH6FOZEUh
 https://superuser.com/questions/1827027/find-and-delete-files-with-linux-command-line
