@@ -1,2 +1,26 @@
 # 42piscinereloaded
 This is the one week prgram we did after getting the news that we made it to the commoncore. We did this to refresh our memory on what we studied during the piscine so that we are better prepared for the firt project of the commoncore
+
+Here are some of the content that have helped me understand the concepts i needed to solve the exercises:
+
+Exercise 2
+Resources that helped me understand
+https://unix.stackexchange.com/questions/167823/finds-exec-rm-vs-delete
+https://youtu.be/aZD5JBB3HXE?si=ISkT5TLTH6FOZEUh
+https://superuser.com/questions/1827027/find-and-delete-files-with-linux-command-line
+
+Exercise 3
+Most of the ones from exercise 2 are needed here if not all
+https://stackoverflow.com/questions/41965415/using-find-to-return-filenames-without-extension
+
+Exercise 4
+Resources that helped me understand
+https://stackoverflow.com/questions/245916/best-way-to-extract-mac-address-from-ifconfigs-output
+
+Exercise 5
+Resources that helped me understand
+https://stackoverflow.com/questions/49988312/how-do-i-create-files-with-special-characters-in-linux
+
+
+Others
+Change file access and modify dates and times: https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-touch-change-file-access-modification-times
