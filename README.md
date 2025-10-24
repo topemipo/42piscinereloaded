@@ -26,3 +26,9 @@ https://stackoverflow.com/questions/49988312/how-do-i-create-files-with-special-
 Others
 Change file access and modify dates and times: 
 https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-touch-change-file-access-modification-times
+
+Dynamic allocation
+https://www.geeksforgeeks.org/c/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/?utm_source=chatgpt.com
+
+heaps and stacks
+https://www.geeksforgeeks.org/c/memory-layout-of-c-program/

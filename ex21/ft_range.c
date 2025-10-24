@@ -1,29 +1,48 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
+/*   ft_range.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tadeyelu <tadeyelu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/17 12:57:59 by tadeyelu          #+#    #+#             */
-/*   Updated: 2025/10/24 19:58:14 by tadeyelu         ###   ########.fr       */
+/*   Created: 2025/10/24 19:51:06 by tadeyelu          #+#    #+#             */
+/*   Updated: 2025/10/24 20:51:44 by tadeyelu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_recursive_factorial(int nb)
+#include <stdlib.h>
+
+int	*ft_range(int min, int max)
 {
-	if (nb >= 0 && nb <= 12)
+	int	n;
+	int	*ptr;
+	int	counter;
+
+	if (min > max)
+		return (NULL);
+	n = max - min;
+	ptr = (int *)malloc(n * sizeof(int));
+	if (ptr == NULL)
+		return (NULL);
+	counter = 0;
+	while (counter < n)
 	{
-		if (nb == 1)
-			return (1);
-		return (nb * ft_recursive_factorial(nb - 1));
+		ptr[counter] = min + counter;
+		counter++;
 	}
-	else
-		return (0);
+	return (ptr);
 }
 
 // #include <stdio.h>
-// int	main(void)
+// int main(void)
 // {
-//     printf("The answer is %i", ft_recursive_factorial(13));     
+// 	int	i;
+
+// 	i = 0;
+// 	while (i < 2)
+// 	{
+// 		printf("%i\n", ft_range(7,7)[i]);
+
+// 		i++;
+// 	}
 // }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sort_params.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: temit <temit@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tadeyelu <tadeyelu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 00:23:25 by temit             #+#    #+#             */
-/*   Updated: 2025/10/23 01:45:36 by temit            ###   ########.fr       */
+/*   Updated: 2025/10/24 19:55:52 by tadeyelu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int ft_strcmp(char *s1, char *s2)
+int	ft_strcmp(char *s1, char *s2)
 {
 	int	i;
 
@@ -29,11 +29,11 @@ int ft_strcmp(char *s1, char *s2)
 	return (s1[i] - s2[i]);
 }
 
-void bubbleSort(char *arr[], int size)
+void	bubblesort(char *arr[], int size)
 {
-	int	i;
-	int	j;
-	char *temp;
+	int		i;
+	int		j;
+	char	*temp;
 
 	i = 1;
 	while (i < size - 1)
@@ -41,11 +41,11 @@ void bubbleSort(char *arr[], int size)
 		j = 1;
 		while (j < size - 1)
 		{
-			if (ft_strcmp(arr[j], arr[j+1]) > 0)
+			if (ft_strcmp (arr[j], arr[j + 1]) > 0)
 			{
 				temp = arr[j];
-				arr[j] = arr[j+1];
-				arr[j+1] = temp;
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
 			}
 			j++;
 		}
@@ -53,9 +53,9 @@ void bubbleSort(char *arr[], int size)
 	}
 }
 
-void ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])
@@ -65,18 +65,18 @@ void ft_putstr(char *str)
 	}
 }
 
-int main(int argc, char *argv[])
-{
-	int	i;
+// int main(int argc, char *argv[])
+// {
+// 	int	i;
 
-	//sort array
-	bubbleSort(argv, argc);
-	//print strings in array
-	i = 1;
-	while (i < argc)
-	{
-		ft_putstr(argv[i]);
-		ft_putchar('\n');
-		i++;
-	}
-}
+// 	//sort array
+// 	bubbleSort(argv, argc);
+// 	//print strings in array
+// 	i = 1;
+// 	while (i < argc)
+// 	{
+// 		ft_putstr(argv[i]);
+// 		ft_putchar('\n');
+// 		i++;
+// 	}
+// }
