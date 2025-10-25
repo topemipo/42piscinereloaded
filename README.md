@@ -32,3 +32,7 @@ https://www.geeksforgeeks.org/c/dynamic-memory-allocation-in-c-using-malloc-call
 
 heaps and stacks
 https://www.geeksforgeeks.org/c/memory-layout-of-c-program/
+
+i used this video to understand header files: https://www.youtube.com/watch?v=62LEMj_lVQ4
+
+i used this to understand macros: https://www.almabetter.com/bytes/articles/macros-in-c
